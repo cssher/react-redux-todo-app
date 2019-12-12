@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Solway&display=swap");
+.ToDo {
+  font-family: "Solway", serif;
+  text-align: center;
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    to bottom,
+    #6d2ffb,
+    #554efa,
+    #4361f5,
+    #3e71ed,
+    #487de1,
+    #378de5,
+    #349ce6,
+    #42a9e4,
+    #26bfef,
+    #19d4f4,
+    #37e8f5,
+    #5ffbf1
+  );
+  padding-bottom: 60px;
+
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.add-todo-card {
+  font-family: "Solway", serif;
+  text-align: center;
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    to bottom,
+    #f25b90,
+    #f36197,
+    #f5689d,
+    #f66ea4,
+    #f774aa,
+    #f87bb1,
+    #f883b8,
+    #f98abf,
+    #f994c8,
+    #f99ed1,
+    #f9a8d9,
+    #f9b1e0
+  );
+  padding-bottom: 30px;
+  padding-left: 25px;
+  border-radius: 25px;
+}
+
+input {
+  font-family: "Solway", serif;
+  font-weight: bolder;
+  border-radius: 25px;
+  outline: none;
+  width: 310px;
+  padding: 10px;
+  font-size: 0.75em;
+  margin: 10px;
+  box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.add-btn {
+  font-family: "Solway", serif;
+  font-weight: 900;
+  color: rgb(211, 226, 220);
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+  height: 30px;
+  width: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  background: #06fa06c9;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #cde405;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: text-top;
+  position: relative;
+  top: -5px;
+  right: 10px;
+  bottom: 20px;
+}
+.add-btn:hover {
+  background-color: rgb(91, 40, 231);
+  color: #edfb2f;
+}
+
+.footer a {
+  font-family: "Solway", serif;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0.5em 0.75em;
+  border: gold 1px dotted;
+  border-radius: 28px;
+  align-self: auto;
+  border: 5px outset rgba(47, 233, 224, 0.705);
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px;
+  padding: 5px 5px 5px 5px;
+}
+
+.footer a:hover {
+  background-color: rgb(184, 80, 11);
+}
+.footer .selected1 {
+  background-color: deeppink;
+}
+
+.footer .selected2 {
+  background-color: rgba(8, 253, 131, 0.904);
+}
+
+.footer .selected3 {
+  background-color: rgba(236, 217, 43, 0.89);
+}
+.message {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: azure;
+}
+
+.clear-btn {
+  font-family: "Solway", serif;
+  color: rgb(211, 226, 220);
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+  height: 40px;
+  width: 80px;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 46px;
+  cursor: pointer;
+  background: crimson;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #cde405;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: text-top;
+  position: relative;
+  top: -5px;
+  right: 10px;
+  bottom: 20px;
+}
+
+.clear-btn:hover {
+  color: red;
+  background-color: rgb(211, 226, 220);
+  font-weight: 900;
+}
+
+tr {
+  font-family: "Solway", serif;
+  font-weight: 200;
+  font-size: 12pt;
+  color: rgb(255, 255, 255);
+}
+
+td {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.btn {
+  outline: none;
+  font-size: 5px;
+  text-align: center;
+  height: 25px;
+  width: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: text-top;
+  position: relative;
+  top: -10px;
+  right: -50px;
+  font-size: 10pt;
+  font-weight: 900;
+}

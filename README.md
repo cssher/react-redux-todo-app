@@ -12,6 +12,6 @@ Or directly clone into your system via the following commands:
 
 `npm install or yarn install`
 
-npm start or yarn start`
+`npm start or yarn start`
 
 Feedbacks are welcome !
